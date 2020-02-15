@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B67FB56239D078C00E72ADE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B67FB55239D078C00E72ADE /* Launch Screen.storyboard */; };
+		5B67FB59239D0C3700E72ADE /* QDButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B67FB58239D0C3700E72ADE /* QDButtonViewController.m */; };
+		5B791E82239F2C90005793BC /* QDCommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B791E81239F2C90005793BC /* QDCommonGroupListViewController.m */; };
+		5B791E85239F2D19005793BC /* QDImagePickerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B791E84239F2D19005793BC /* QDImagePickerExampleViewController.m */; };
+		5B791E88239F310D005793BC /* QDSingleImagePickerPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B791E87239F310D005793BC /* QDSingleImagePickerPreviewViewController.m */; };
+		5B791E8B239F328B005793BC /* QDMultipleImagePickerPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B791E8A239F328B005793BC /* QDMultipleImagePickerPreviewViewController.m */; };
+		5B7D35E823964FE500EFF423 /* QMUIThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35E723964FE500EFF423 /* QMUIThemeManager.m */; };
+		5B7D35EE23965DE700EFF423 /* QDUIKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35ED23965DE700EFF423 /* QDUIKitViewController.m */; };
+		5B7D35F123965E4400EFF423 /* QDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35F023965E4400EFF423 /* QDNavigationController.m */; };
+		5B7D35F423965EB800EFF423 /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35F323965EB800EFF423 /* QDUIHelper.m */; };
+		5B7D35F7239664F000EFF423 /* QDComponentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35F6239664F000EFF423 /* QDComponentsViewController.m */; };
+		5B7D35FA239665AA00EFF423 /* QDCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35F9239665AA00EFF423 /* QDCommonTableViewController.m */; };
+		5B7D35FD2396682D00EFF423 /* QDCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35FC2396682D00EFF423 /* QDCommonListViewController.m */; };
+		5B7D36002396686100EFF423 /* QDLabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7D35FF2396686100EFF423 /* QDLabViewController.m */; };
+		5BA3B0C8239CE4140066DA75 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5BA3B0C7239CE4130066DA75 /* Default-568h@2x.png */; };
+		5BBD93B22393413600CA737D /* QDCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD93B12393413600CA737D /* QDCommonViewController.m */; };
+		5BBD93B52393459300CA737D /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD93B42393459300CA737D /* QDCommonUI.m */; };
+		5BBD93BD23934A6B00CA737D /* QDCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD93BC23934A6B00CA737D /* QDCommonGridViewController.m */; };
+		5BBD93C023934BF500CA737D /* QDThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BBD93BF23934BF500CA737D /* QDThemeManager.m */; };
+		5BBE089C239679B2005B6640 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BBE089B239679B2005B6640 /* LaunchScreen.xib */; };
+		5BC0E00E2392649B004768F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0E00D2392649B004768F9 /* AppDelegate.m */; };
+		5BC0E0192392649D004768F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC0E0182392649D004768F9 /* Assets.xcassets */; };
+		5BC0E01F2392649D004768F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0E01E2392649D004768F9 /* main.m */; };
+		5BC0E02B2392B882004768F9 /* QDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC0E02A2392B882004768F9 /* QDTabBarViewController.m */; };
+		5BEDABB123ED671200F599DE /* QDDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEDABB023ED671200F599DE /* QDDialogViewController.m */; };
+		E9C9D83B6EF0E3C652CC8020 /* libPods-ZyQMUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3760CE6F2966D9194B627979 /* libPods-ZyQMUIKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0652E3E975EC0BA568000473 /* Pods-ZyQMUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyQMUIKit.release.xcconfig"; path = "Target Support Files/Pods-ZyQMUIKit/Pods-ZyQMUIKit.release.xcconfig"; sourceTree = "<group>"; };
+		3760CE6F2966D9194B627979 /* libPods-ZyQMUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZyQMUIKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B67FB55239D078C00E72ADE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		5B67FB57239D0C3700E72ADE /* QDButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDButtonViewController.h; sourceTree = "<group>"; };
+		5B67FB58239D0C3700E72ADE /* QDButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDButtonViewController.m; sourceTree = "<group>"; };
+		5B791E80239F2C90005793BC /* QDCommonGroupListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonGroupListViewController.h; sourceTree = "<group>"; };
+		5B791E81239F2C90005793BC /* QDCommonGroupListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonGroupListViewController.m; sourceTree = "<group>"; };
+		5B791E83239F2D19005793BC /* QDImagePickerExampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDImagePickerExampleViewController.h; sourceTree = "<group>"; };
+		5B791E84239F2D19005793BC /* QDImagePickerExampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDImagePickerExampleViewController.m; sourceTree = "<group>"; };
+		5B791E86239F310D005793BC /* QDSingleImagePickerPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDSingleImagePickerPreviewViewController.h; sourceTree = "<group>"; };
+		5B791E87239F310D005793BC /* QDSingleImagePickerPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDSingleImagePickerPreviewViewController.m; sourceTree = "<group>"; };
+		5B791E89239F328B005793BC /* QDMultipleImagePickerPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMultipleImagePickerPreviewViewController.h; sourceTree = "<group>"; };
+		5B791E8A239F328B005793BC /* QDMultipleImagePickerPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMultipleImagePickerPreviewViewController.m; sourceTree = "<group>"; };
+		5B7D35E623964FE500EFF423 /* QMUIThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QMUIThemeManager.h; sourceTree = "<group>"; };
+		5B7D35E723964FE500EFF423 /* QMUIThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMUIThemeManager.m; sourceTree = "<group>"; };
+		5B7D35EC23965DE700EFF423 /* QDUIKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDUIKitViewController.h; sourceTree = "<group>"; };
+		5B7D35ED23965DE700EFF423 /* QDUIKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDUIKitViewController.m; sourceTree = "<group>"; };
+		5B7D35EF23965E4400EFF423 /* QDNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDNavigationController.h; sourceTree = "<group>"; };
+		5B7D35F023965E4400EFF423 /* QDNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDNavigationController.m; sourceTree = "<group>"; };
+		5B7D35F223965EB800EFF423 /* QDUIHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDUIHelper.h; sourceTree = "<group>"; };
+		5B7D35F323965EB800EFF423 /* QDUIHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDUIHelper.m; sourceTree = "<group>"; };
+		5B7D35F5239664F000EFF423 /* QDComponentsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDComponentsViewController.h; sourceTree = "<group>"; };
+		5B7D35F6239664F000EFF423 /* QDComponentsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDComponentsViewController.m; sourceTree = "<group>"; };
+		5B7D35F8239665AA00EFF423 /* QDCommonTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonTableViewController.h; sourceTree = "<group>"; };
+		5B7D35F9239665AA00EFF423 /* QDCommonTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonTableViewController.m; sourceTree = "<group>"; };
+		5B7D35FB2396682D00EFF423 /* QDCommonListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonListViewController.h; sourceTree = "<group>"; };
+		5B7D35FC2396682D00EFF423 /* QDCommonListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonListViewController.m; sourceTree = "<group>"; };
+		5B7D35FE2396686100EFF423 /* QDLabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLabViewController.h; sourceTree = "<group>"; };
+		5B7D35FF2396686100EFF423 /* QDLabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLabViewController.m; sourceTree = "<group>"; };
+		5BA3B0C7239CE4130066DA75 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5BBD93B02393413600CA737D /* QDCommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonViewController.h; sourceTree = "<group>"; };
+		5BBD93B12393413600CA737D /* QDCommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonViewController.m; sourceTree = "<group>"; };
+		5BBD93B32393459300CA737D /* QDCommonUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonUI.h; sourceTree = "<group>"; };
+		5BBD93B42393459300CA737D /* QDCommonUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonUI.m; sourceTree = "<group>"; };
+		5BBD93B62393467A00CA737D /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		5BBD93BB23934A6B00CA737D /* QDCommonGridViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommonGridViewController.h; sourceTree = "<group>"; };
+		5BBD93BC23934A6B00CA737D /* QDCommonGridViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommonGridViewController.m; sourceTree = "<group>"; };
+		5BBD93BE23934BF500CA737D /* QDThemeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDThemeManager.h; sourceTree = "<group>"; };
+		5BBD93BF23934BF500CA737D /* QDThemeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDThemeManager.m; sourceTree = "<group>"; };
+		5BBD93C123934EE000CA737D /* QDThemeProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDThemeProtocol.h; sourceTree = "<group>"; };
+		5BBE089B239679B2005B6640 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		5BC0E0092392649B004768F9 /* ZyQMUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZyQMUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC0E00C2392649B004768F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BC0E00D2392649B004768F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BC0E0182392649D004768F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BC0E01D2392649D004768F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC0E01E2392649D004768F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BC0E0292392B882004768F9 /* QDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDTabBarViewController.h; sourceTree = "<group>"; };
+		5BC0E02A2392B882004768F9 /* QDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDTabBarViewController.m; sourceTree = "<group>"; };
+		5BEDABAF23ED671200F599DE /* QDDialogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDialogViewController.h; sourceTree = "<group>"; };
+		5BEDABB023ED671200F599DE /* QDDialogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDialogViewController.m; sourceTree = "<group>"; };
+		7EFC07BC0048D30CE2FA140A /* Pods-ZyQMUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZyQMUIKit.debug.xcconfig"; path = "Target Support Files/Pods-ZyQMUIKit/Pods-ZyQMUIKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC0E0062392649B004768F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C9D83B6EF0E3C652CC8020 /* libPods-ZyQMUIKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7D35E523964FCD00EFF423 /* QMUITheme */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D35E623964FE500EFF423 /* QMUIThemeManager.h */,
+				5B7D35E723964FE500EFF423 /* QMUIThemeManager.m */,
+			);
+			path = QMUITheme;
+			sourceTree = "<group>";
+		};
+		5B7D35E923965D1300EFF423 /* Lab */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D35FE2396686100EFF423 /* QDLabViewController.h */,
+				5B7D35FF2396686100EFF423 /* QDLabViewController.m */,
+			);
+			path = Lab;
+			sourceTree = "<group>";
+		};
+		5B7D35EA23965D1300EFF423 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D35EC23965DE700EFF423 /* QDUIKitViewController.h */,
+				5B7D35ED23965DE700EFF423 /* QDUIKitViewController.m */,
+				5B67FB57239D0C3700E72ADE /* QDButtonViewController.h */,
+				5B67FB58239D0C3700E72ADE /* QDButtonViewController.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		5B7D35EB23965D1300EFF423 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D35F5239664F000EFF423 /* QDComponentsViewController.h */,
+				5B7D35F6239664F000EFF423 /* QDComponentsViewController.m */,
+				5B791E83239F2D19005793BC /* QDImagePickerExampleViewController.h */,
+				5B791E84239F2D19005793BC /* QDImagePickerExampleViewController.m */,
+				5B791E86239F310D005793BC /* QDSingleImagePickerPreviewViewController.h */,
+				5B791E87239F310D005793BC /* QDSingleImagePickerPreviewViewController.m */,
+				5B791E89239F328B005793BC /* QDMultipleImagePickerPreviewViewController.h */,
+				5B791E8A239F328B005793BC /* QDMultipleImagePickerPreviewViewController.m */,
+				5BEDABAF23ED671200F599DE /* QDDialogViewController.h */,
+				5BEDABB023ED671200F599DE /* QDDialogViewController.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5BC0E0002392649B004768F9 = {
+			isa = PBXGroup;
+			children = (
+				5BC0E00B2392649B004768F9 /* ZyQMUIKit */,
+				5BC0E00A2392649B004768F9 /* Products */,
+				5BA3B0C7239CE4130066DA75 /* Default-568h@2x.png */,
+				E243AF61AB5A8ECC6954FD61 /* Pods */,
+				DDBC198C28B51941DCEF8916 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC0E00A2392649B004768F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0E0092392649B004768F9 /* ZyQMUIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC0E00B2392649B004768F9 /* ZyQMUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0E00C2392649B004768F9 /* AppDelegate.h */,
+				5BC0E00D2392649B004768F9 /* AppDelegate.m */,
+				5B7D35EB23965D1300EFF423 /* Components */,
+				5B7D35E923965D1300EFF423 /* Lab */,
+				5B7D35EA23965D1300EFF423 /* UIKit */,
+				5BC0E0252392B0BA004768F9 /* Common */,
+				5BC0E0182392649D004768F9 /* Assets.xcassets */,
+				5BC0E01D2392649D004768F9 /* Info.plist */,
+				5BC0E01E2392649D004768F9 /* main.m */,
+				5BBD93B62393467A00CA737D /* PrefixHeader.h */,
+				5B67FB55239D078C00E72ADE /* Launch Screen.storyboard */,
+				5BBE089B239679B2005B6640 /* LaunchScreen.xib */,
+			);
+			path = ZyQMUIKit;
+			sourceTree = "<group>";
+		};
+		5BC0E0252392B0BA004768F9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5B7D35E523964FCD00EFF423 /* QMUITheme */,
+				5BC0E0262392B0BA004768F9 /* Config */,
+				5BC0E0272392B0BA004768F9 /* Ctr */,
+				5BC0E0282392B0BA004768F9 /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5BC0E0262392B0BA004768F9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		5BC0E0272392B0BA004768F9 /* Ctr */ = {
+			isa = PBXGroup;
+			children = (
+				5BC0E0292392B882004768F9 /* QDTabBarViewController.h */,
+				5BC0E02A2392B882004768F9 /* QDTabBarViewController.m */,
+				5BBD93B02393413600CA737D /* QDCommonViewController.h */,
+				5BBD93B12393413600CA737D /* QDCommonViewController.m */,
+				5BBD93BB23934A6B00CA737D /* QDCommonGridViewController.h */,
+				5BBD93BC23934A6B00CA737D /* QDCommonGridViewController.m */,
+				5B7D35EF23965E4400EFF423 /* QDNavigationController.h */,
+				5B7D35F023965E4400EFF423 /* QDNavigationController.m */,
+				5B7D35F8239665AA00EFF423 /* QDCommonTableViewController.h */,
+				5B7D35F9239665AA00EFF423 /* QDCommonTableViewController.m */,
+				5B7D35FB2396682D00EFF423 /* QDCommonListViewController.h */,
+				5B7D35FC2396682D00EFF423 /* QDCommonListViewController.m */,
+				5B791E80239F2C90005793BC /* QDCommonGroupListViewController.h */,
+				5B791E81239F2C90005793BC /* QDCommonGroupListViewController.m */,
+			);
+			path = Ctr;
+			sourceTree = "<group>";
+		};
+		5BC0E0282392B0BA004768F9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5BBD93B32393459300CA737D /* QDCommonUI.h */,
+				5BBD93B42393459300CA737D /* QDCommonUI.m */,
+				5BBD93BE23934BF500CA737D /* QDThemeManager.h */,
+				5BBD93BF23934BF500CA737D /* QDThemeManager.m */,
+				5BBD93C123934EE000CA737D /* QDThemeProtocol.h */,
+				5B7D35F223965EB800EFF423 /* QDUIHelper.h */,
+				5B7D35F323965EB800EFF423 /* QDUIHelper.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DDBC198C28B51941DCEF8916 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3760CE6F2966D9194B627979 /* libPods-ZyQMUIKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E243AF61AB5A8ECC6954FD61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EFC07BC0048D30CE2FA140A /* Pods-ZyQMUIKit.debug.xcconfig */,
+				0652E3E975EC0BA568000473 /* Pods-ZyQMUIKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC0E0082392649B004768F9 /* ZyQMUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC0E0222392649D004768F9 /* Build configuration list for PBXNativeTarget "ZyQMUIKit" */;
+			buildPhases = (
+				5D1458D69BFC1EE963A36E36 /* [CP] Check Pods Manifest.lock */,
+				5BC0E0052392649B004768F9 /* Sources */,
+				5BC0E0062392649B004768F9 /* Frameworks */,
+				5BC0E0072392649B004768F9 /* Resources */,
+				17FD7EB044D1D8C1ECB40E33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZyQMUIKit;
+			productName = ZyQMUIKit;
+			productReference = 5BC0E0092392649B004768F9 /* ZyQMUIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC0E0012392649B004768F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = partTime_ios;
+				TargetAttributes = {
+					5BC0E0082392649B004768F9 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BC0E0042392649B004768F9 /* Build configuration list for PBXProject "ZyQMUIKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC0E0002392649B004768F9;
+			productRefGroup = 5BC0E00A2392649B004768F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC0E0082392649B004768F9 /* ZyQMUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC0E0072392649B004768F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBE089C239679B2005B6640 /* LaunchScreen.xib in Resources */,
+				5BC0E0192392649D004768F9 /* Assets.xcassets in Resources */,
+				5B67FB56239D078C00E72ADE /* Launch Screen.storyboard in Resources */,
+				5BA3B0C8239CE4140066DA75 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17FD7EB044D1D8C1ECB40E33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZyQMUIKit/Pods-ZyQMUIKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZyQMUIKit/Pods-ZyQMUIKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZyQMUIKit/Pods-ZyQMUIKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1458D69BFC1EE963A36E36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZyQMUIKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC0E0052392649B004768F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B791E82239F2C90005793BC /* QDCommonGroupListViewController.m in Sources */,
+				5B7D35FD2396682D00EFF423 /* QDCommonListViewController.m in Sources */,
+				5B7D35F123965E4400EFF423 /* QDNavigationController.m in Sources */,
+				5BBD93B22393413600CA737D /* QDCommonViewController.m in Sources */,
+				5B67FB59239D0C3700E72ADE /* QDButtonViewController.m in Sources */,
+				5B7D36002396686100EFF423 /* QDLabViewController.m in Sources */,
+				5B7D35F423965EB800EFF423 /* QDUIHelper.m in Sources */,
+				5BBD93BD23934A6B00CA737D /* QDCommonGridViewController.m in Sources */,
+				5B7D35EE23965DE700EFF423 /* QDUIKitViewController.m in Sources */,
+				5BC0E00E2392649B004768F9 /* AppDelegate.m in Sources */,
+				5B791E8B239F328B005793BC /* QDMultipleImagePickerPreviewViewController.m in Sources */,
+				5BC0E02B2392B882004768F9 /* QDTabBarViewController.m in Sources */,
+				5BEDABB123ED671200F599DE /* QDDialogViewController.m in Sources */,
+				5BC0E01F2392649D004768F9 /* main.m in Sources */,
+				5B7D35FA239665AA00EFF423 /* QDCommonTableViewController.m in Sources */,
+				5BBD93C023934BF500CA737D /* QDThemeManager.m in Sources */,
+				5B7D35E823964FE500EFF423 /* QMUIThemeManager.m in Sources */,
+				5B791E88239F310D005793BC /* QDSingleImagePickerPreviewViewController.m in Sources */,
+				5BBD93B52393459300CA737D /* QDCommonUI.m in Sources */,
+				5B791E85239F2D19005793BC /* QDImagePickerExampleViewController.m in Sources */,
+				5B7D35F7239664F000EFF423 /* QDComponentsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5BC0E0202392649D004768F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BC0E0212392649D004768F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC0E0232392649D004768F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EFC07BC0048D30CE2FA140A /* Pods-ZyQMUIKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKC6JPUY89;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZyQMUIKit/PrefixHeader.h";
+				INFOPLIST_FILE = ZyQMUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "partTime-ios.ZyQMUIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC0E0242392649D004768F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0652E3E975EC0BA568000473 /* Pods-ZyQMUIKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VKC6JPUY89;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZyQMUIKit/PrefixHeader.h";
+				INFOPLIST_FILE = ZyQMUIKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "partTime-ios.ZyQMUIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC0E0042392649B004768F9 /* Build configuration list for PBXProject "ZyQMUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0E0202392649D004768F9 /* Debug */,
+				5BC0E0212392649D004768F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC0E0222392649D004768F9 /* Build configuration list for PBXNativeTarget "ZyQMUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC0E0232392649D004768F9 /* Debug */,
+				5BC0E0242392649D004768F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC0E0012392649B004768F9 /* Project object */;
+}
